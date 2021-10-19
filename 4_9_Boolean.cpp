@@ -28,10 +28,10 @@ int main(){
 	// std::cin >> std::boolalpha;
 	std::cin >> b;
 	std::cout << "You entered: " << b << '\n';
-
+}
 /////////////////////////////////
 bool isEqual(int x, int y)
 {
     return (x == y); // operator== returns true if x equals y, and false otherwise
 }
-}
+
