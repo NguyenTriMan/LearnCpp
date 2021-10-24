@@ -5,7 +5,7 @@
  *          int8_t is usually treated the same as a signed char in C++, so it will generally print as a char instead of an integer.
  *          static_cast<new_type>(VARIABLE) ÉP KIỂU 
  *          Whenever you see C++ syntax (excluding the preprocessor) that makes use of angled brackets <NGOAC NHON>, the thing between the angled brackets will most likely be a type
- *          
+ *          '\n' not "\n" help complier optimize more effectively
  *          
  */
 
@@ -24,14 +24,17 @@ int main(){
     cout << test_ << endl;  // print '0'
 //*************************************************************
 //because ch is can only hold 1 character. the rest of user input is store in std:cin input buffer 
-    // char ch = ' '; // type abc
-    // cout << " nhap choue " << endl;
-    // cin >> ch; // print a
-    // cout << ch << endl;
-    // cin >> ch; // print b
-    // cout << ch << endl;
-    char ch = '40';
+    char ch = ' '; // type abc
+    cout << " nhap choue " << endl;
+    cin >> ch; // print a
     cout << ch << endl;
+    cin >> ch; // print b
+    cout << ch << endl;
+
+    // char ch = '40';
+    // cout << ch << endl;   PRINT 0
+
+    cout << "\\n \\" << endl;
 
     return 0;
 }
