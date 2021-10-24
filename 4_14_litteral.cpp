@@ -1,7 +1,9 @@
 /* The link: https://www.learncpp.com/cpp-tutorial/chars/
  *
- * In Cpp: 
- *          A character can be a single letter, number, symbol, or whitespace.
+ * DEFAULT: 0,3 => int
+ *          3.4, 9.99 => double
+ *          'a' => char
+ *          "hello" => const char[5]
  *          
  *          
  */
